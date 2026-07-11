@@ -1,4 +1,4 @@
-🏠 ML House Price Prediction
+🏠 # ML House Price Prediction
 
 📌 Overview
 
@@ -6,12 +6,12 @@ This project builds an end-to-end Machine Learning pipeline to predict house pri
 
 The project covers the complete Machine Learning workflow, including data preprocessing, exploratory data analysis, model selection, hyperparameter tuning, evaluation, and UI Interaction using Streamlit.
 
-📊 Dataset :
+📊 ## Dataset :
   - Dataset: Housing Dataset
   - Rows: 20,640
   - Target Variable: median_house_value
 
-Features :
+## Features :
 
 ------------------------------------------------
 | Feature            | Description              |
@@ -27,9 +27,9 @@ Features :
 | ocean_proximity    | Distance from the ocean  |
 -------------------------------------------------
 
-📈 Exploratory Data Analysis (EDA) :
+📈 ## Exploratory Data Analysis (EDA) :
 
-  The following analyses were performed:
+  #### The following analyses were performed:
 
     - Missing Values Analysis
     - Feature Distribution
@@ -44,9 +44,9 @@ Features :
 <img width="880" height="632" alt="Untitled" src="https://github.com/user-attachments/assets/a4e37edd-c48a-4e3e-b46a-59be3d522a6f" />
 
 
-⚙️ Data Preprocessing :
+⚙️ ## Data Preprocessing :
 
-  The preprocessing pipeline includes:
+  #### The preprocessing pipeline includes:
 
     - Missing Value Imputation
     - One-Hot Encoding
@@ -55,7 +55,7 @@ Features :
     - Scikit-learn Pipeline
 
 
-🤖 Models Evaluated :
+🤖 ## Models Evaluated :
 
 ---------------------------------------------------------------------
 | Model                         |    RMSE   |     MAE   |     R²    |
@@ -68,9 +68,9 @@ Features :
 --------------------------------------------------------------------
 
 
-🔍 Model Selection :
+🔍 ## Model Selection :
 
-  The models were compared using:
+  #### The models were compared using:
 
     - K-Fold Cross Validation
     - GridSearchCV
@@ -78,10 +78,10 @@ Features :
     - MAE
     - R² Score
 
-  The best-performing model was HistGradientBoostingRegressor
+  The best-performing model was **HistGradientBoostingRegressor**
 
 
-💻 Streamlit Application :
+💻 ## Streamlit Application :
 
   A Streamlit web application was developed to allow users to:
 
@@ -91,7 +91,7 @@ Features :
 
 <img width="1851" height="846" alt="WhatsApp Image 2026-07-11 at 9 16 10 AM" src="https://github.com/user-attachments/assets/f064595c-f591-4214-ac2c-ba4c4e35d70b" />
 
-🛠️ Technologies Used :
+🛠️ ## Technologies Used :
   - Python
   - Pandas
   - NumPy
@@ -126,6 +126,6 @@ House-Price-Prediction/
 <img width="1851" height="846" alt="WhatsApp Image 2026-07-11 at 9 16 10 AM" src="https://github.com/user-attachments/assets/906d6434-1559-4d45-bc0f-bd51c4636267" />
 <img width="1693" height="929" alt="ChatGPT Image Jul 11, 2026, 05_57_40 PM" src="https://github.com/user-attachments/assets/e33a6619-a575-43c1-8781-1191e1f0bbe1" />
 
-⭐ Repository
+⭐ # Repository
 
-If you found this project useful, feel free to ⭐ the repository.
+## If you found this project useful, feel free to ⭐ the repository.
