@@ -117,9 +117,7 @@ House-Price-Prediction/
 ├── app/
 │   └── app.py
 │
-├── README.md
-├── LICENSE
-└── .gitignore
+└── README.md
 ```
 
 
