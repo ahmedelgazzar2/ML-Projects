@@ -100,28 +100,27 @@ Features :
   - Scikit-learn
   - Streamlit
 
-📁 Project Structure :
+## 📁 Project Structure
 
-  House-Price-Prediction/
-  │
-  ├── DataSet
-  |  └── housing.csv
-  |
-  ├── Model Implemintation
-  |  └── house_price_prediction.py
-  |
-  ├── model
-  |  └── house_price_model.sav
-  |
-  ├── app.py
-  |
-  ├── images/
-  │   ├── app.png
-  │   ├── heatmap.png
-  │   ├── residual_plot.png
-  │   └── comparison_table.png
-  |
-  └── README.md
+```text
+House-Price-Prediction/
+│
+├── data/
+│   └── housing.csv
+│
+├── notebooks/
+│   └── House_Price_Prediction.ipynb
+│
+├── models/
+│   └── house_price_model.pkl
+│
+├── app/
+│   └── app.py
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
 
 📷 Screenshots :
